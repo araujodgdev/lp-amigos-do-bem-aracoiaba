@@ -2,7 +2,7 @@ import { nunito, oswald } from '@/lib/fonts'
 
 export default function Hero() {
     return (
-        <div className="hero bg-zinc-900 border border-[#9b9b9b] rounded-box image-full w-full md:w-80 h-screen md:h-[32rem] bg-[url('/aqf-logo.png')]">
+        <div className="hero md:fixed bg-zinc-900 border border-[#9b9b9b] rounded-box image-full w-full md:w-96 h-[40rem] md:h-[47rem] bg-[url('/aqf-logo.png')]">
             <div className="hero-overlay bg-opacity-95 rounded-xl"></div>
             <div className="hero-content text-neutral-content flex flex-col text-center">
                 <div className='flex items-center space-x-4'>

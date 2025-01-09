@@ -11,6 +11,9 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/aqf-logo.png')"
+      },
+      gridTemplateColumns: {
+        'main-grid': '1fr 3fr'
       }
     },
   },
