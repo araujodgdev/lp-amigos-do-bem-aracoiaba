@@ -13,7 +13,7 @@ export default async function Home() {
       <div className="md:grid md:grid-cols-3 self-end flex flex-col items-center gap-4 md:max-w-[68rem]">
 
         {
-          pictures.map((picture: any) =>
+          pictures.map((picture: typeof pictures[0]) =>
             <PictureContainer
               key={picture.asset_id}
               src={picture.public_id}
